@@ -31,9 +31,10 @@ const questions = () => {
         message: 'Please enter your email address',
       },
       {
-        type: 'input',
+        type: 'list',
         name: 'license',
         message: 'Please choose what type of license you would like',
+        choices: ["MIT", "Mozilla", "Apache 2.0", "Eclipse", "None"]
       },
     ]);
 };
