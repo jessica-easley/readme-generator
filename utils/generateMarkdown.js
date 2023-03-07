@@ -45,31 +45,36 @@ ${renderLicenseLink(data.license)}
 
 ${renderLicenseSection(data.license)}
 
-# Table of Contents
-1. [Project Title](#Title)
-2. [Description](#Description)
-3. [Installation](#Installation)
-4. [Usage](#Usage)
-5. [Github](#Github)
-6. [Email](#Email)
-7. [License](#License)
-8. [Contributions](#Contributions)
-9. [Tests](#Tests)
-10. [Questions](#Questions)
+## Table of Contents
+* [Project Title](#Title)
+* [Description](#Description)
+* [Installation](#Install)
+* [Usage](#Usage)
+* [Github](#Github)
+* [Email](#Email)
+* [License](#License)
+* [Contributions](#Contributors)
+* [Tests](#Test)
+* [Questions](#Questions)
 
-## ${data.description}
+## [Description](#table-of-contents)
+${data.description}
 
-## ${data.installation}
+## [Installation](#table-of-contents)
+${data.install}
 
-## ${data.usage}
+## [Usage](#table-of-contents)
+${data.usage}
 
-## ${data.contribution}
+## [Contributors](#table-of-contents)
+${data.contributors}
 
-## ${data.tests}
+## [Tests](#table-of-contents)
+${data.test}
 
-## Questions
+## [Questions](#table-of-contents)
   If you have any further questions please reach out to me on github or via email.
-* Github Username: ${data.username}
+* Github Username: ${data.github}
 * Email Address: ${data.email}
  `;
 }

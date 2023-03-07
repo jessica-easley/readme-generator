@@ -43,7 +43,7 @@ const questions = () => {
       },
       {
         type: 'input',
-        name: 'contributuions',
+        name: 'contributors',
         message: 'Please enter the contributors to this project',
       },
       {
