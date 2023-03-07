@@ -45,6 +45,21 @@ ${renderLicenseLink(data.license)}
 
 ${renderLicenseSection(data.license)}
 
+# Table of Contents
+1. [Project Title](#Title)
+2. [Description](#Description)
+3. [Installation](#Installation)
+4. [Usage](#Usage)
+5. [Github](#Github)
+6. [Email](#Email)
+7. [License](#License)
+8. [Contributions](#Contributions)
+9. [Tests](#Tests)
+10. [Questions](#Questions)
+
+## Questions
+* Github Username: ${data.username}
+* Email Address: ${data.email}`;
  `;
 }
 

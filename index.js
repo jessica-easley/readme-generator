@@ -22,6 +22,11 @@ const questions = () => {
       },
       {
         type: 'input',
+        name: 'usage',
+        message: 'What can this project be used for?',
+      },
+      {
+        type: 'input',
         name: 'github',
         message: 'Please enter your GitHub username',
       },
@@ -35,6 +40,16 @@ const questions = () => {
         name: 'license',
         message: 'Please choose what type of license you would like',
         choices: ["MIT", "Mozilla", "Apache 2.0", "Eclipse", "None"]
+      },
+      {
+        type: 'input',
+        name: 'contributuions',
+        message: 'Please enter the contributors to this project',
+      },
+      {
+        type: 'input',
+        name: 'test',
+        message: 'Explain how this project was tested prior to deployment',
       },
     ]);
 };
