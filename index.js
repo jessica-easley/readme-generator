@@ -61,7 +61,7 @@ function writeToFile(fileName, data) {
         if (err) {
             return console.log(err);
         }
-        // console.log("Confirmed! Your README file has been generated.")
+        console.log("Confirmed! Your README file has been generated.")
     });
 }
 
